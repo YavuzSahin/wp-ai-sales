@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^index$ index.php [QSA,L]
+RewriteRule ^login$ login.php [QSA,L]
+RewriteRule ^logout$ logout.php [QSA,L]
+
+
+
+
+RewriteRule ^action/(.*)$ action.php?process=$1 [L,QSA]
