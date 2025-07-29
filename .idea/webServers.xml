@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a73d7750-100c-4502-ae42-b2c457971cf2" name="bariatricistanbul.com.tr" url="https://www.bariatricistanbul.com.tr">
+        <fileTransfer rootFolder="/public_html" host="146.190.21.158" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
